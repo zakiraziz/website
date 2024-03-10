@@ -143,14 +143,14 @@ html,body{
 }
 
 #motive{
-    width: 50%;
-    text-align: right;
-    font-size: 2vw;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
     padding: 3vw 10vw;
-
 }
 
-#motive{
+#motive p{
+    margin-top: 7vw;
     position: relative;
     right: 0;
     width: 80%;
@@ -165,4 +165,6 @@ height: 50px;
 margin: 0 10px;
 border-radius: 100%;
 background-color: red;
+margin: 0 13px;
+margin-bottom: -12.5px;
 } 
