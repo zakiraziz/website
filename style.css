@@ -150,6 +150,8 @@ html,body{
 }
 
 #motive p{
+    line-height: 1.7;
+    letter-spacing: -.15vw;
     margin-top: 7vw;
     position: relative;
     right: 0;
@@ -160,11 +162,31 @@ html,body{
 
 #motive span{
 display: inline-block;
-width: 120px;
-height: 50px;
-margin: 0 10px;
 border-radius: 100%;
 background-color: red;
 margin: 0 13px;
 margin-bottom: -12.5px;
 } 
+
+#onespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#towspan{
+    width: 130px;
+    height: 60px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsIz4qZKTOplGKCIt860B8HP3mTBMZGACNFg&usqp=CAU);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+#threespan{ 
+    width: 80px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJDx2rgz5O2J26_fzWpRxRIHyKbg_uOfsUQ&usqp=CAU);
+    background-size: cover;
+    background-position: 0% 48%;
+}
