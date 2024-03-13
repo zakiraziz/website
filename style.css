@@ -190,3 +190,59 @@ margin-bottom: -12.5px;
     background-size: cover;
     background-position: 0% 48%;
 }
+
+#pictures{
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 13vw;
+    padding-right: 12vw;
+}
+
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg {
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: red;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#firstpic p{
+    opacity: .8;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#secpic #picimg {
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: red;
+}
+
+
+#secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#secpic p{
+    opacity: .8;
+    font-size: 13px;
+    margin-top: 10px;
+}
