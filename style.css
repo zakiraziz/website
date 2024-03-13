@@ -192,19 +192,21 @@ margin-bottom: -12.5px;
 }
 
 #pictures{
+    display: flex;
+    justify-content: space-between;
     margin-top: 8vw;
     padding: 3vw;
     padding-left: 13vw;
     padding-right: 12vw;
 }
 
-#firstpic{
-    width: 17vw;
+#secpic{
+    width: 20vw;
 }
 
 #firstpic #picimg {
-    width: 100%;
-    height: 24vw;
+    width: 90%;
+    height: 25vw;
     margin-bottom: 1vw;
     background-color: red;
 }
@@ -223,13 +225,22 @@ margin-bottom: -12.5px;
 
 #firstpic p{
     opacity: .8;
-    font-size: 13px;
+    font-size: 1vw;
     margin-top: 10px;
+    width: 50%;
+    line-height: 1;
+}
+
+#secpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
 }
 
 #secpic #picimg {
-    width: 100%;
-    height: 24vw;
+    width: 130%;
+    height: 39vw;
     margin-bottom: 1vw;
     background-color: red;
 }
@@ -245,4 +256,37 @@ margin-bottom: -12.5px;
     opacity: .8;
     font-size: 13px;
     margin-top: 10px;
+    width: 50%;
+    line-height: 1;
+    text-align: right;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    width:  100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 50vh;
+    background-color: red;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+
+#btext h1 {
+    font-size: 2.4vw;
+    line-height: 1;
 }
