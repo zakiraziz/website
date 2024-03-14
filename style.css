@@ -287,9 +287,14 @@ margin-bottom: -12.5px;
 }
 
 #btext h1 {
-    font-size: 2.4vw;
+    font-size: 2.8vw;
     font-weight: 400;
-    letter-spacing: -.1vw;
+    letter-spacing: -.15vw;
     margin-bottom: 10px;
     line-height: 1;
+}
+
+#btext p{
+    margin-bottom: 20px;
+    width: 60px;
 }
