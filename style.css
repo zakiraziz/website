@@ -262,7 +262,7 @@ margin-bottom: -12.5px;
 }
 
 #banner {
-    display: flex;
+display: flex;
     align-items: center;
     width:  100%;
     margin-top: 8vw;
@@ -282,6 +282,7 @@ margin-bottom: -12.5px;
 }
 
 #btext{
+    
     width: 35%;
     padding: 0 3vw;
 }
@@ -296,5 +297,49 @@ margin-bottom: -12.5px;
 
 #btext p{
     margin-bottom: 20px;
-    width: 60px;
+    width: 200px;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#future video{
+    opacity: .1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    width: 100%;
+    height: 100%;
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 3vw;
+}
+
+#ftext button{
+    padding: 2vw 3vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+    border-radius: 10%;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #868585;
 }
